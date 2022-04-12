@@ -7,10 +7,15 @@ Motors control the gantry (using [COREXY](corexy.com/theory.html)), and the serv
 
 Initial code was built and referenced off of [Wahid Bawa's RoboticsFSE](https://github.com/WahidBawa/RoboticsFSE).
 
+This project was designed across <2 months for McMaster's Year 1 Engineering Integrated Cornerstone Design Project, but mostly manufactured, assembled, and programmed over the span of a week :D
+
 ##### note - for every arduino board that you want to use pyfirmata on, you first have to write the StandardPyfirmata program onto it using the Arduino IDE (file > examples > firmata > standardfirmata) so that the Arduino can actually read and run whatever python code you're writing to it
 
 ### okay let me flex the project first
 
+https://user-images.githubusercontent.com/44351972/162902076-bb8fbf9b-9896-4502-9b3c-0b5e38e98d03.mov
+
+https://user-images.githubusercontent.com/44351972/162903085-618ac0bd-a2aa-4e91-92ba-5eb362670a49.mov
 
 ## motor_xy_gantry.py
 * Initialize Arduino boards using Pyfirmata
